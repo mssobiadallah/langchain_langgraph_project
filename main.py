@@ -4,6 +4,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_deepseek.chat_models import ChatDeepSeek
 
 
+
 load_dotenv()
 deepseek_key =os.environ.get("DEEPSEEK_API_KEY")
 
